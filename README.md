@@ -12,12 +12,12 @@ All the required files are located in this repository. Copy these files to your 
 - Go to the extracted folder computer-build-master/ and modify the code!
 
 ##Instructions
+###Research
 1. Think of what type of build this will be. 
   - University Student
   - Gaming
   - Business
   - Professional (e.g., Video editing, music recording)
-- They have given you the opportunity to put your name on this page and call the build whatever you like. Edit the appropriate places in the index.html file.
 - You are to find the appropriate components for your build. The following are mandatory:
   - CPU
   - Motherboard
@@ -42,6 +42,11 @@ All the required files are located in this repository. Copy these files to your 
     CPU - Motherboard (intel or AMD)
     RAM - Motherboard (# of pins)
 - You have a $1100 budget (before tax)
-  
-Use http://pcpartpicker.com/  
-###Do not copy a pre-existing build.The blogger will not be happy with you.
+  - Use http://pcpartpicker.com/  
+  - Do not copy a pre-existing build.The blogger will not be happy with you.
+
+###Coding
+1. They have given you the opportunity to put your name on this page and call the build whatever you like. Edit the appropriate places in the <code>index.html</code> file.
+- Within the <code>sketch.js</code> file, you are to create [object literals](https://www.khanacademy.org/computing/computer-programming/programming/objects/p/intro-to-objects "Kahn Academy - Intro to Objects") for each component following the examples given.
+- Each object literal must be included in the [array](https://www.khanacademy.org/computing/computer-programming/programming/arrays/p/intro-to-arrays "Kahn Academy - Arrays") called <code>components</code>.
+- The rest of the code in the sketch.js file doesn't need to be modified. It is essentially a for-loop that will cycle through our array of components, and for each component, it will add the component's information to our website automatically.
