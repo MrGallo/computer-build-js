@@ -9,7 +9,7 @@ All the required files are located in this repository. Copy these files to your 
 - Choose “Download ZIP”.
 - Upload the zip folder in c9.io by dragging it into the file tree or clicking File > Import. 
 - Unzip it by typing in the console <code>$ unzip computer-build-master.zip</code>
-- Go to the extracted folder computer-build-master/ and modify the code!
+- Go to the extracted folder <code>computer-build-master/</code> and modify the code!
 
 ##Instructions
 ###Research
