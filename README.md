@@ -5,11 +5,8 @@ You just picked up a contract from someone who owns a blog about computers. The 
 ## Download
 All the required files are located in this repository. Copy these files to your c9.io development environment.
 
-1. Click the green “clone or download” button. 
-- Choose “Download ZIP”.
-- Upload the zip folder in c9.io by dragging it into the file tree or clicking File > Import. 
-- Unzip it by typing in the console <code>$ unzip computer-build-master.zip</code>
-- Go to the extracted folder <code>computer-build-master/</code> and modify the code!
+1. In your c9 terminal type `$ git clone https://github.com/STL-ICS2O/computer-build.git`
+- Go to the extracted folder `$ cd computer-build/` and modify the code!
 
 ## Instructions
 ### Research
