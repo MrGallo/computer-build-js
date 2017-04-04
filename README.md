@@ -2,7 +2,7 @@
 
 You just picked up a contract from someone who owns a blog about computers. The owner has a webpage and some code ready but they need someone to do a little research on a particular computer build and write some code.
 
-##Download
+## Download
 All the required files are located in this repository. Copy these files to your c9.io development environment.
 
 1. Click the green “clone or download” button. 
@@ -11,8 +11,8 @@ All the required files are located in this repository. Copy these files to your 
 - Unzip it by typing in the console <code>$ unzip computer-build-master.zip</code>
 - Go to the extracted folder <code>computer-build-master/</code> and modify the code!
 
-##Instructions
-###Research
+## Instructions
+### Research
 1. Think of what type of build this will be. 
   - University Student
   - Gaming
@@ -45,7 +45,7 @@ All the required files are located in this repository. Copy these files to your 
   - Use http://pcpartpicker.com/  
   - Do not copy a pre-existing build.The blogger will not be happy with you.
 
-###Coding
+### Coding
 1. They have given you the opportunity to put your name on this page and call the build whatever you like. Edit the appropriate places in the <code>index.html</code> file.
 - Within the <code>sketch.js</code> file, you are to create [object literals](https://www.khanacademy.org/computing/computer-programming/programming/objects/p/intro-to-objects "Kahn Academy - Intro to Objects") for each component following the examples given.
 - Each object literal must be included in the [array](https://www.khanacademy.org/computing/computer-programming/programming/arrays/p/intro-to-arrays "Kahn Academy - Arrays") called <code>components</code>.
