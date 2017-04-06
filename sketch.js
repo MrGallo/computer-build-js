@@ -55,6 +55,7 @@ function drawComponents() {
     var image = createImg(component.image, component.componentName);
     image.addClass("image-responsive");
     image.style("width: 100%");
+    image.style("height: 150px");
     
     // place the parts into the cell
     cell.child(componentTitle);
