@@ -48,6 +48,7 @@ function drawComponents() {
     cell.style("text-align: left;");
     
     var componentTitle = createElement("h3", component.componentName);
+    componentTitle.style("text-align: center");
     var info = createP(component.info);  // create a paragraph and place the comonent's info in it.
     var price = createP("Price: " + component.price);
     var makeAndModel = createElement("h4", component.make + " " + component.model);
