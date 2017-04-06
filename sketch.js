@@ -16,7 +16,7 @@ var cpu = {
   image: "https://placehold.it/150x80?text=CPU",
   info: "This is a description of the part.",
   price: 100.00
-}
+};
 
 var ram = {
   componentName: "Random Access Memory",
@@ -25,7 +25,8 @@ var ram = {
   image: "https://placehold.it/150x80?text=RAM",
   info: "This is a description of the part.",
   price: 200.00
-}
+};
+
 var components = [cpu];
 
 function drawComponents() {
