@@ -39,7 +39,7 @@ All the required files are located in this repository. Copy these files to your 
     CPU - Motherboard (intel or AMD)
     RAM - Motherboard (# of pins)
 - You have a $1100 budget (before tax)
-  - Use http://pcpartpicker.com/  
+  - Use http://ca.pcpartpicker.com/  
   - Do not copy a pre-existing build.The blogger will not be happy with you.
 
 ### Coding
