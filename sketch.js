@@ -32,6 +32,7 @@ var components = [cpu];
 function drawComponents() {
   // grab the components container so we can add things to it later
   var container = select("#components");
+  var row;
   
   /*** 
    * For every object in our "components" list, we will do the following:
@@ -41,6 +42,18 @@ function drawComponents() {
    */
   for (var i = 0; i < components.length; i++) {
     var component = components[i];  // this will store each single component object
+    
+    if (i % 4 === 0) {
+      // add previous row to container
+      if (i !== 0) {
+        container.child(row);
+      }
+      
+      //create new row
+      row = createDiv("");
+      row.addClass("row");
+      
+    }
     
     // Create a cell to hold the component thumbnail
     var cell = createDiv("");        
@@ -66,9 +79,11 @@ function drawComponents() {
     cell.child(info);  
     cell.child(price);
     
-    // finally, place that assembled component cell into the container.
-    container.child(cell);  
+    // finally, place that assembled component cell into the row.
+    row.child(cell)
   }
+  // place last row into the container
+  container.child(row);
 }
 
 function setup() {
